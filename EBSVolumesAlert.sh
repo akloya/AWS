@@ -1,4 +1,6 @@
 #!/bin/bash
+# Author: Ajaya Kumar Loya
+# 
 # This script send alerts if you have ebs volumes with status "Available"
 
 MailTo=
@@ -12,6 +14,6 @@ COUNT=`cat ebsvolumes.log | grep -c "vol-" |awk '{print $1+1}'`
 if [ $COUNT == "1" ]; then
 echo "NOTHING TO DELETE....."
 else
-echo "PLAN TO DELETE ASAP for savings"
-mail -s 'ALERT! :UNUSED EBS VOLUMES FOUND IN YOUR AWS ACCOUNT' $MailTo -c $MailCc  < ebsvolumes.log
+echo "PLAN TO DELETE ASAP for savings $$$$ if not in use."
+mail -s 'ALERT!!! UNUSED EBS VOLUMES FOUND IN YOUR AWS ACCOUNT' $MailTo -c $MailCc  < ebsvolumes.log
 fi
