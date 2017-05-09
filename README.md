@@ -1,6 +1,6 @@
 # My AWS Handy Scripts
 
-Amazon Web Services
+This readme give you a high level overview of what each script is doing.
 ---
 `EBSVolumesAlert.sh`
 >This script gives list of EBS Volumes with status "available".
