@@ -13,5 +13,5 @@ if [ $COUNT == "1" ]; then
 echo "NOTHING TO DELETE....."
 else
 echo "PLAN TO DELETE ASAP for savings"
-mail -s 'ALERT! :UNUSED EBS VOLUMES FOUND IN LEANTAAS01 AWS ACCOUNT' $MailTo -c $MailCc  < ebsvolumes.log
+mail -s 'ALERT! :UNUSED EBS VOLUMES FOUND IN YOUR AWS ACCOUNT' $MailTo -c $MailCc  < ebsvolumes.log
 fi
