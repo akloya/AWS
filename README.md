@@ -1,4 +1,4 @@
-# AWS
+# My AWS Handy Scripts
 
 Amazon Web Services
 ---
