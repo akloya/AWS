@@ -2,6 +2,7 @@
 # Author: Ajaya Kumar Loya
 # 
 # This script send alerts if you have ebs volumes with status "Available"
+# This script is ensure we are not paying any volumes which are not using.
 
 MailTo=
 MailCc=
