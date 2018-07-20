@@ -9,3 +9,5 @@ This readme give you a high level overview of what each script is doing.
 >This script will gives you aws Instance ID.
 --- 
 
+
+[!https://devtools.leantaas.com/buildStatus/icon?job=chef-repo!|https://devtools.leantaas.com/job/chef-repo/]
