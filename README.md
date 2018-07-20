@@ -10,4 +10,4 @@ This readme give you a high level overview of what each script is doing.
 --- 
 
 
-[!https://devtools.leantaas.com/buildStatus/icon?job=chef-repo!|https://devtools.leantaas.com/job/chef-repo/]
+[![Build Status](https://devtools.leantaas.com/buildStatus/icon?job=chef-repo)](https://devtools.leantaas.com/job/chef-repo)
